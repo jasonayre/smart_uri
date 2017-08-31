@@ -39,7 +39,7 @@ SmartURI.parse('http://myapi.com', 'posts', '1').to_s
 As you can see, it makes building URI's / working with API's much easier
 
 Under the hood it just uses SimpleDelegator, so all the normal URI methods should,
-work when working with a SimpleURI object
+work when working with a SmartURI object
 
 ## Installation
 
@@ -56,10 +56,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install smart_uri
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
